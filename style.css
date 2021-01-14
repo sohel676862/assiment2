@@ -1,0 +1,134 @@
+.navar-img img {
+    width: 200px;
+}
+
+.backgrouncolor {
+    background-color: #fffff4;
+    height: 500px;
+}
+
+.header-img img {
+    width: 20rem;
+}
+
+.change-colore {
+    color: orange;
+}
+
+.btn {
+    border-radius: 10px;
+    color: #fffff4;
+    background-color: orange;
+}
+
+.img-size {
+    margin: 10px auto;
+    border: none;
+    padding: 20px;
+}
+
+.card-footer-change {
+    border: none;
+    background-color: transparent;
+}
+
+.card-footer-change span {
+    font-size: 30px;
+    color: orange;
+}
+
+
+/* delivary section */
+
+.delivery-log img {
+    width: 60px;
+}
+
+.product-img img {
+    width: 500px;
+}
+
+.rounded-shado {
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.22);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.card-shado {
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.22);
+    border-radius: 10px;
+}
+
+.card-shado img {
+    background-color: rgba(128, 128, 128, 0.323);
+    border-radius: 10px;
+    margin-left: 20px;
+    padding: 40px;
+}
+
+.card-img img {
+    width: 280px;
+    height: 300px;
+    margin-left: 25px;
+}
+
+.card-img2 img {
+    width: 280px;
+    height: 300px;
+    margin-left: 25px;
+}
+
+.card-img3 img {
+    width: 280px;
+    height: 300px;
+    margin-left: 25px;
+}
+
+.about-img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(0, 128, 0, 0.248);
+}
+
+.about-img {
+    margin-right: 40px;
+}
+
+@media (max-width: 983px) {
+    .navar-img img {
+        width: 300px;
+        margin-top: 20px;
+    }
+    .backgrouncolor {
+        height: 700px;
+    }
+    .header-img img {
+        display: block;
+        width: 15rem;
+    }
+    .row {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin: 5px;
+    }
+    .col {
+        margin-top: 10px;
+    }
+    .about-media {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 623px) {
+    .container h1 {
+        text-align: center;
+        color: green;
+    }
+    .row {
+        display: flex;
+        justify-content: center;
+    }
+}
